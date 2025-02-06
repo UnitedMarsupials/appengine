@@ -1,9 +1,10 @@
 module google.golang.org/appengine
 
-go 1.11
+go 1.21
+
+toolchain go1.22.3
 
 require (
-	github.com/golang/protobuf v1.5.2
-	golang.org/x/text v0.3.8
-	google.golang.org/protobuf v1.33.0
+	golang.org/x/text v0.22.0
+	google.golang.org/protobuf v1.36.5
 )
